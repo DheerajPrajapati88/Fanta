@@ -1,0 +1,94 @@
+@media(max-width:375px){
+    .center_nav a{
+        display: none;
+    }
+    .nav #logo{
+        width: 12%;
+    }
+    .one{
+    overflow: hidden;
+    }
+    .one #fanta{
+
+        width:80%;
+    }
+    .one #halfOrange{
+        top: 15%;
+        left: 20%;
+        width: 30%;
+    }
+    .one #orange{
+        width: 40%;
+    }
+    .one h1{
+        font-size: 25vw;
+    }
+    #leaf4{
+        top: 15%;
+        left: 40%;
+        width: 30%;
+    }
+    .two{
+        overflow: hidden;
+        /* flex-direction: column; */
+    }
+    .left_two{
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .left_two svg{
+        width: 80%;
+        left: -10%;
+    }
+    .right_two h1{
+        font-size: 5vw;
+    }
+    .right_two p{
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+    }
+    .right_two{
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .three{
+        /* min-height: 250vh; */
+        /* flex-direction: column; */
+        padding: 0 1vw;
+    }
+    .three .card{
+    width: 90%;
+    /* height: 50vh; */
+    gap: 1vw;
+
+    }
+    .three .card h1{
+        font-size: 5vw;
+    }
+    .three .card button{
+        font-size: 3vw;
+        padding: 2vw 3vw;
+    }
+     .three #lipton{
+        width: 50%;
+        top: 40% !important;
+    }
+    .card #apple{
+        width: 45%;
+        top: 30% !important;
+        left: -8% !important;
+
+
+    }
+    .three #sprite{
+        width: 40%;
+        top: 40% !important;
+
+    }
+    .three #greenOrange{
+        width: 40%;
+        top: 30% !important;
+        right: -4% !important;
+    } 
+ 
+}

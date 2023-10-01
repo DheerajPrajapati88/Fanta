@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background:linear-gradient(to left top,darkorange,rgb(255, 47, 0)); */
+}
+.main{
+    background-color: rgba(255, 77, 0, 0.866);
+
+    /* width: 100%;
+    height: 100%; */
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    position: fixed;
+    color: #fff;
+    z-index: 99;
+}
+.nav #logo{
+    width: 5%;
+}
+.nav .center_nav{
+    display: flex;
+    gap: 4vw;
+}
+.nav .center_nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one #fanta{
+ 
+    width: 35%;
+    z-index: 2;
+    position: absolute;
+    filter: drop-shadow(0px 10px 20px #0000005c);
+    transition: all cubic-bezier(0.19, 1, 0.165, 0.5);
+}
+.one #halfOrange{
+    width: 16%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.165, 0.5);
+
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
+.one #orange{
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    transition: all cubic-bezier(0.19, 1, 0.165, 0.5);
+
+    left: 50%;
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
+#leaf1{
+    width: 10%;
+    position: absolute;
+    top: 45%;
+    right:10%;
+    transform: rotate(140deg);
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.165, 0.5);
+
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
+#leaf3{
+    width: 20%;
+    position: absolute;
+    left: -6%;
+    z-index:1;
+    transition: all cubic-bezier(0.19, 1, 0.165, 0.5);
+    bottom: 40%;
+    transform: rotate(110deg);
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
+#leaf4{
+    width: 20%;
+    position: absolute;
+    right: 30%;
+    top: 10%;
+    transform: rotate(40deg);
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+
+}
+.one h1{
+    font-size: 20vw;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:0px 5px 10px #0000001c ;
+    position: absolute;
+    z-index: 2;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background:linear-gradient(to left top,darkorange,rgb(255, 47, 0)); */
+}
+.left_two{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vw;
+}
+.left_two svg{
+    position: absolute;
+    width: 50%;
+    right: 52%;
+    transform: rotateX(70deg);
+    padding-top:20vw ;
+    filter: drop-shadow(0px 5px 10px #0000001c);
+
+}
+.right_two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw;
+}
+.right_two h1{
+    font-size: 3vw;
+    text-transform: capitalize;
+    color: #fff;
+}
+.right_two p{
+    color: #fff;
+    font-size: 1.1vw;
+    z-index: 3;
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    overflow: hidden;
+    /* background:linear-gradient(to left top,darkorange,rgb(255, 47, 0)); */
+}
+.three .card{
+    width: 25vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+    padding-top: 50vh;
+    box-shadow: 0px 5px 10px #0000001c;
+
+}
+.three .card h1{
+    font-size: 2vw;
+    color:#fff;
+}
+.three .card button{
+    padding: 0.5vw 1vw;
+    font-size: 1vw;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 2px 5px #0000003c;
+    background:linear-gradient(to left top,darkorange,rgb(255, 47, 0));
+}
+.three #lipton{
+    top:25%;
+    position: absolute;
+    width: 30%;
+    filter: drop-shadow(0px 10px 20px #0000005c);
+    transition: all cubic-bezier(0.19, 1, 0.33, 0.5);
+
+
+}
+.three #sprite{
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    filter: drop-shadow(0px 10px 20px #0000005c);
+    transition: all cubic-bezier(0.19, 1, 0.33, 0.5);
+
+}
+.card:nth-child(1){
+    background-color:firebrick;
+    
+}
+.card #apple{
+    top: 5%;
+    width: 30%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.33, 0.5);
+
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
+.card:nth-child(2){
+    /* background-color:orange; */
+    background-color: rgb(255, 77, 0);
+
+}
+.card:nth-child(3){
+    background-color:#94d524;
+}
+.card>#greenOrange{
+    position: absolute;
+    width: 25%;
+    top:4%;
+    filter: drop-shadow(0px 10px 20px #0000001c);
+
+}
