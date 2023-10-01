@@ -153,12 +153,14 @@ mm.add("(max-width:375px)", () => {
 
     tl2.to("#fanta",{
         width:"40%",
-        left:"30%"
+        left:"30%",
+        top:"230%"
     })
     
     tl2.to("#halfOrange",{
-        width:"35%",
-        left:"33%"
+        width:"30%",
+        left:"35%",
+        top:"220%"
     })
 
 });
